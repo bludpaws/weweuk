@@ -1,0 +1,5 @@
+#!name=MITM ALL
+[MITM]
+skip-server-cert-verify = true
+tcp-connection = true
+hostname = -*.github.com,-*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, *
